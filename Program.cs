@@ -9,7 +9,7 @@
     } 
 }
 
-int CounrThreeCharacters (string [] array)
+int CountThreeCharacters (string [] array)
 {
     int count = 0;
     for (int i = 0; i < array.Length; i++)
@@ -37,7 +37,7 @@ string [] CreateNewArray (string [] array, int len)
 
 string [] array = {"Hellow", "tow", "Word", "-)"};
 PrintArray (array);
-int lenNewArray = CounrThreeCharacters(array);
+int lenNewArray = CountThreeCharacters(array);
 string [] newArray = CreateNewArray (array, lenNewArray);
 Console.Write (" -> ");
 PrintArray (newArray);
